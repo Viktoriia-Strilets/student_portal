@@ -63,7 +63,7 @@ class _HealthScreenState extends State<HealthScreen> {
   Future<void> _loadEyeExercises() async {
     try {
       final url = Uri.parse(
-          'https://raw.githubusercontent.com/Viktoriia-Strilets/eye-exercises/refs/heads/main/exercises.json?token=GHSAT0AAAAAADSLSJTK6URQNNQZWVSWUWZS2KY7FJA');
+          'https://raw.githubusercontent.com/Viktoriia-Strilets/eye-exercises/main/exercises.json');
       final response = await http.get(url);
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
