@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "329968731788",
+    "project_id": "studentprofile-d4936",
+    "storage_bucket": "studentprofile-d4936.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329968731788:android:618e823184f29827891da9",
+        "android_client_info": {
+          "package_name": "com.example.student_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwG4iex5JmG_Q7dUE7GKhN_hzWPDzZfyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329968731788:android:5f419314656ec04b891da9",
+        "android_client_info": {
+          "package_name": "com.example.studentapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwG4iex5JmG_Q7dUE7GKhN_hzWPDzZfyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
