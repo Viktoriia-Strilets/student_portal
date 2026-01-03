@@ -1,16 +1,26 @@
-# student_app
+# Student Portal App
+Мобільний додаток для управління студентським профілем та завданнями.
 
-A new Flutter project.
+## Функціонал
+- Створення, редагування та видалення завдань.
+- Календар завдань з підсвіткою дат.
+- Відстеження здорових звичок та вправ для очей.
+- Інтеграція з Firebase для зберігання даних.
+- Push-повідомлення для нагадування про перерви.
 
-## Getting Started
+## Встановлення
+1. Клонуйте репозиторій:
+   ```bash
+   git clone https://github.com/Viktoriia-Strilets/student_portal.git
+Відкрийте проект у Android Studio або Xcode.
+Запустіть емулятор або підключіть пристрій.
 
-This project is a starting point for a Flutter application.
+Встановіть залежності:
+flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+Запустіть додаток:
+flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+API
+Firebase Firestore для зберігання профілів та завдань.
+Firebase Authentication для авторизації користувачів.
